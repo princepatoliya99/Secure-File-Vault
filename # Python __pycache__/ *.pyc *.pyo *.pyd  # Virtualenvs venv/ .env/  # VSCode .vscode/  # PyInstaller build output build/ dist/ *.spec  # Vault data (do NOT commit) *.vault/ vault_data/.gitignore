@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenvs
+venv/
+.env/
+
+# VSCode
+.vscode/
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+
+# Vault data (do NOT commit)
+*.vault/
+vault_data/
+*.enc
+vault_metadata.json
+logs.json
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
